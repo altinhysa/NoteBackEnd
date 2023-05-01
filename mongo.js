@@ -7,7 +7,7 @@ const config = require('./utils/config')
 
 const password = process.argv[2]
 
-const url = "mongodb+srv://altinhysa:iCd4s4iWFO3t9VCb@fso.fol22ew.mongodb.net/testNoteApp?retryWrites=true&w=majority"
+const url = "mongodb+srv://x:{pass}@fso.fol22ew.mongodb.net/testNoteApp?retryWrites=true&w=majority"
 mongoose.set('strictQuery',false)
 mongoose.connect(url)
 
